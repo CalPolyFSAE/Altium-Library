@@ -55,23 +55,6 @@ GenerateClassCluster=0
 DocumentUniqueId=AODHNSLR
 
 [Document2]
-DocumentPath=..\..\..\..\..\ProgramData\Altium\Altium Designer {3E7A7747-4394-4D57-B6A1-7EFC8BD1D11E}\VaultEditCache\6D2E381FAEAD6C82BEBE309AB2FEFDCB\Released\PCC-2000-00918-1.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=RBLONYJA
-
-[Document3]
 DocumentPath=Footprints.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -87,6 +70,14 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DXCOKQPU
+
+[GeneratedDocument1]
+DocumentPath=Components.csv
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Components.rep
+DItemRevisionGUID=
 
 [OutputGroup1]
 Name=Netlist Outputs

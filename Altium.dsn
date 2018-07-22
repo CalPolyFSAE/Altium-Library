@@ -1,0 +1,6 @@
+[ODBC]
+DRIVER=MySQL ODBC 8.0 ANSI Driver
+UID=cpracing
+PORT=3306
+DATABASE=Altium
+SERVER={altium.cyyn3lqbjhax.us-east-2.rds.amazonaws.com}

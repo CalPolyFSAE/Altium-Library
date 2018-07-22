@@ -1,0 +1,3 @@
+CREATE VIEW `VIEW USERS` AS
+SELECT username, email
+FROM user

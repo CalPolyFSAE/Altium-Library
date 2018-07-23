@@ -6,16 +6,50 @@ AddMode=3
 RemoveMode=1
 UpdateMode=2
 ViewMode=0
-LeftQuote=[
-RightQuote=]
+LeftQuote=`
+RightQuote=`
 QuoteTableNames=1
 UseTableSchemaName=0
-DefaultColumnType=VARCHAR(255)
+DefaultColumnType=VARCHAR(45)
 LibraryDatabaseType=
 LibraryDatabasePath=
 DatabasePathRelative=0
 TopPanelCollapsed=0
-LibrarySearchPath=
+LibrarySearchPath=..\Altium-Library
 OrcadMultiValueDelimiter=,
-SearchSubDirectories=0
+SearchSubDirectories=1
 SchemaName=
+LastFocusedTable=Resistor
+[Table1]
+SchemaName=
+TableName=Resistor
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=idResistor0=74|Name0=52|Resistance0=77|Tolerance0=72|Power0=55|Package0=65|Manufacturer0=93|P/N0=41|Link0=44|Description0=82|Supplier0=66|Comment0=72|Created_By0=80|Created_Date0=92|Check_By0=71|Checked_Date0=96|Updated_By0=85|Updated_Date0=97|Library Ref0=77|Library Path0=83|Footprint Ref0=92|Footprint Path0=98|ComponentLink1Description0=170|ComponentLink1URL0=131
+[Table2]
+SchemaName=
+TableName=VIEW USERS
+Enabled=False
+UserWhere=0
+UserWhereText=
+[Table3]
+SchemaName=
+TableName=user
+Enabled=False
+UserWhere=0
+UserWhereText=
+[FieldMap1]
+Options=FieldName=Resistor.idResistor|TableNameOnly=Resistor|FieldNameOnly=idResistor|FieldType=0|ParameterName=idResistor|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap2]
+Options=FieldName=Resistor.Description|TableNameOnly=Resistor|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap3]
+Options=FieldName=Resistor.Library Ref|TableNameOnly=Resistor|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap4]
+Options=FieldName=Resistor.Library Path|TableNameOnly=Resistor|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap5]
+Options=FieldName=Resistor.Footprint Ref|TableNameOnly=Resistor|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap6]
+Options=FieldName=Resistor.Footprint Path|TableNameOnly=Resistor|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0

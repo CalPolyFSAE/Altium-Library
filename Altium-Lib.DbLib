@@ -5,7 +5,7 @@ ConnectionString=Provider=MSDASQL.1;Password=formulasae;Persist Security Info=Tr
 AddMode=3
 RemoveMode=1
 UpdateMode=2
-ViewMode=1
+ViewMode=0
 LeftQuote=`
 RightQuote=`
 QuoteTableNames=1
@@ -19,75 +19,165 @@ LibrarySearchPath=..\Altium-Library
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=1
 SchemaName=
-LastFocusedTable=Capacitor
+LastFocusedTable=VIEW USERS
 [Table1]
+SchemaName=
+TableName=ADC
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table2]
+SchemaName=
+TableName=BJT
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table3]
 SchemaName=
 TableName=Capacitor
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=Capacitance0=Up
-BrowserOrder_Grouping=
-BrowserOrder_Visible=idCap0=53|Name0=137|Capacitance0=85|Voltage Rating0=100|Dieletric0=65|ESR0=42|Package0=65|Manufacturer0=158|MfrPartNo0=108|Link0=614|Description0=480|Comment0=86|Created_By0=80|Created_Date0=92|Last_Updated0=93|Library_Ref0=79|Library_Path0=129|Footprint_Ref0=94|Footprint_Path0=141|ComponentLink1Description0=170|ComponentLink1URL0=612|Supplier10=72|Supplier1PartNo0=107|Location0=67|Value0=52
-[Table2]
+[Table4]
+SchemaName=
+TableName=Connector
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table5]
+SchemaName=
+TableName=Inductor
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table6]
+SchemaName=
+TableName=MOSFET
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table7]
 SchemaName=
 TableName=Manufacturer
 Enabled=False
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Manufacturer0=182|Link0=51|Contact_Name0=97|Contact_Email0=95|Contact_Phone0=101|Contact_Address0=109|Comment0=72|Sponsorship_Status0=125
-[Table3]
+[Table8]
+SchemaName=
+TableName=Op_Amp
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table9]
 SchemaName=
 TableName=Resistor
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=idResistor0=74|Description0=588|Library Ref0=77|Library Path0=128|Footprint Ref0=92|Footprint Path0=141|Supplier10=72|Supplier1PartNo0=142|Name0=127|Resistance0=77|Tolerance0=72|Power0=55|Package0=65|Manufacturer0=182|MfrPartNo0=122|Link0=617|Comment0=125|Created_By0=80|Created_Date0=92|Check_By0=85|Checked_Date0=96|Updated_By0=98|Updated_Date0=97|ComponentLink1Description0=170|ComponentLink1URL0=272|Location0=67|Value0=52
-[Table4]
+[Table10]
+SchemaName=
+TableName=Shunt
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table11]
+SchemaName=
+TableName=Transformer
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table12]
 SchemaName=
 TableName=VIEW USERS
 Enabled=False
 UserWhere=0
 UserWhereText=
-[Table5]
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=username0=100|email0=100
+[Table13]
 SchemaName=
 TableName=user
 Enabled=False
 UserWhere=0
 UserWhereText=
 [FieldMap1]
-Options=FieldName=Capacitor.idCap|TableNameOnly=Capacitor|FieldNameOnly=idCap|FieldType=0|ParameterName=idCap|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=ADC.Description|TableNameOnly=ADC|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
-Options=FieldName=Capacitor.Description|TableNameOnly=Capacitor|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=BJT.Description|TableNameOnly=BJT|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap3]
-Options=FieldName=Capacitor.Library_Ref|TableNameOnly=Capacitor|FieldNameOnly=Library_Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=BJT.Library Ref|TableNameOnly=BJT|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap4]
-Options=FieldName=Capacitor.Library_Path|TableNameOnly=Capacitor|FieldNameOnly=Library_Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=BJT.Library Path|TableNameOnly=BJT|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap5]
-Options=FieldName=Capacitor.Footprint_Ref|TableNameOnly=Capacitor|FieldNameOnly=Footprint_Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=BJT.Footprint Ref|TableNameOnly=BJT|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap6]
-Options=FieldName=Capacitor.Footprint_Path|TableNameOnly=Capacitor|FieldNameOnly=Footprint_Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=BJT.Footprint Path|TableNameOnly=BJT|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap7]
-Options=FieldName=Capacitor.Supplier1|TableNameOnly=Capacitor|FieldNameOnly=Supplier1|FieldType=1|ParameterName=Supplier 1|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitor.idCap|TableNameOnly=Capacitor|FieldNameOnly=idCap|FieldType=0|ParameterName=idCap|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap8]
-Options=FieldName=Capacitor.Supplier1PartNo|TableNameOnly=Capacitor|FieldNameOnly=Supplier1PartNo|FieldType=1|ParameterName=Supplier Part Number 1|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitor.Description|TableNameOnly=Capacitor|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap9]
-Options=FieldName=Resistor.idResistor|TableNameOnly=Resistor|FieldNameOnly=idResistor|FieldType=0|ParameterName=idResistor|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitor.Library_Ref|TableNameOnly=Capacitor|FieldNameOnly=Library_Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap10]
-Options=FieldName=Resistor.Description|TableNameOnly=Resistor|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitor.Library_Path|TableNameOnly=Capacitor|FieldNameOnly=Library_Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap11]
-Options=FieldName=Resistor.Library Ref|TableNameOnly=Resistor|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitor.Footprint_Ref|TableNameOnly=Capacitor|FieldNameOnly=Footprint_Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap12]
-Options=FieldName=Resistor.Library Path|TableNameOnly=Resistor|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitor.Footprint_Path|TableNameOnly=Capacitor|FieldNameOnly=Footprint_Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap13]
-Options=FieldName=Resistor.Footprint Ref|TableNameOnly=Resistor|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitor.Supplier1|TableNameOnly=Capacitor|FieldNameOnly=Supplier1|FieldType=1|ParameterName=Supplier 1|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap14]
-Options=FieldName=Resistor.Footprint Path|TableNameOnly=Resistor|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Capacitor.Supplier1PartNo|TableNameOnly=Capacitor|FieldNameOnly=Supplier1PartNo|FieldType=1|ParameterName=Supplier Part Number 1|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap15]
-Options=FieldName=Resistor.Supplier1|TableNameOnly=Resistor|FieldNameOnly=Supplier1|FieldType=1|ParameterName=Supplier 1|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Connector.Description|TableNameOnly=Connector|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap16]
+Options=FieldName=Inductor.Description|TableNameOnly=Inductor|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap17]
+Options=FieldName=MOSFET.Description|TableNameOnly=MOSFET|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap18]
+Options=FieldName=MOSFET.Library Ref|TableNameOnly=MOSFET|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap19]
+Options=FieldName=MOSFET.Library Path|TableNameOnly=MOSFET|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap20]
+Options=FieldName=MOSFET.Footprint Ref|TableNameOnly=MOSFET|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap21]
+Options=FieldName=MOSFET.Footprint Path|TableNameOnly=MOSFET|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap22]
+Options=FieldName=Op_Amp.Description|TableNameOnly=Op_Amp|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap23]
+Options=FieldName=Op_Amp.Library Ref|TableNameOnly=Op_Amp|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap24]
+Options=FieldName=Op_Amp.Library Path|TableNameOnly=Op_Amp|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap25]
+Options=FieldName=Op_Amp.Footprint Ref|TableNameOnly=Op_Amp|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap26]
+Options=FieldName=Op_Amp.Footprint Path|TableNameOnly=Op_Amp|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap27]
+Options=FieldName=Resistor.idResistor|TableNameOnly=Resistor|FieldNameOnly=idResistor|FieldType=0|ParameterName=idResistor|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap28]
+Options=FieldName=Resistor.Description|TableNameOnly=Resistor|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap29]
+Options=FieldName=Resistor.Library Ref|TableNameOnly=Resistor|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap30]
+Options=FieldName=Resistor.Library Path|TableNameOnly=Resistor|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap31]
+Options=FieldName=Resistor.Footprint Ref|TableNameOnly=Resistor|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap32]
+Options=FieldName=Resistor.Footprint Path|TableNameOnly=Resistor|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap33]
+Options=FieldName=Resistor.Supplier1|TableNameOnly=Resistor|FieldNameOnly=Supplier1|FieldType=1|ParameterName=Supplier 1|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap34]
 Options=FieldName=Resistor.Supplier1PartNo|TableNameOnly=Resistor|FieldNameOnly=Supplier1PartNo|FieldType=1|ParameterName=Supplier Part Number 1|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap35]
+Options=FieldName=Shunt.Description|TableNameOnly=Shunt|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap36]
+Options=FieldName=Shunt.Library Ref|TableNameOnly=Shunt|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap37]
+Options=FieldName=Shunt.Library Path|TableNameOnly=Shunt|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap38]
+Options=FieldName=Shunt.Footprint Ref|TableNameOnly=Shunt|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap39]
+Options=FieldName=Shunt.Footprint Path|TableNameOnly=Shunt|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap40]
+Options=FieldName=Transformer.Description|TableNameOnly=Transformer|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0

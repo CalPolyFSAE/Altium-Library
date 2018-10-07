@@ -19,7 +19,7 @@ LibrarySearchPath=..\Altium-Library
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=1
 SchemaName=
-LastFocusedTable=Resistor
+LastFocusedTable=IC-Misc
 [Table1]
 SchemaName=
 TableName=ADC
@@ -94,7 +94,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=idIC-Misc0=70|Manufacturer_id0=108|Drawer_id0=75|Name0=115|Value0=52|Type0=46|Protocol0=66|Num_Circuits0=90|Data_Rate0=75|Vin(Min)0=66|Vin(Max)0=67|Package0=65|MfrPartNo0=76|Link0=44|Description0=82|Comment0=72|ComponentLink1Description0=170|ComponentLink1URL0=131|Supplier10=72|Supplier1PartNo0=107|Created_By0=80|Created_Date0=92|Updated_By0=85|Updated_Date0=97|Library Ref0=149|Library Path0=231|Footprint Ref0=92|Footprint Path0=137
+BrowserOrder_Visible=idIC-Misc0=111|Manufacturer_id0=164|Drawer_id0=115|Name0=172|Value0=83|Type0=76|Protocol0=104|Num_Circuits0=141|Data_Rate0=117|Vin(Min)0=104|Vin(Max)0=107|Package0=103|MfrPartNo0=120|Link0=70|Description0=126|Comment0=116|ComponentLink1Description0=256|ComponentLink1URL0=200|Supplier10=111|Supplier1PartNo0=165|Created_By0=125|Created_Date0=143|Updated_By0=131|Updated_Date0=149|Library Ref0=223|Library Path0=346|Footprint Ref0=139|Footprint Path0=202
 [Table13]
 SchemaName=
 TableName=Inductor
@@ -149,9 +149,6 @@ TableName=Resistor
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=idResistor0=74|Description0=82|Library Ref0=77|Library Path0=128|Footprint Ref0=92|Footprint Path0=141|Supplier10=72|Supplier1PartNo0=107|Manufacturer_id0=108|Drawer_id0=75|Name0=152|Value0=52|Tolerance0=72|Power0=55|Package0=65|MfrPartNo0=76|Link0=44|Comment0=167|ComponentLink1Description0=170|ComponentLink1URL0=131|Created_By0=80|Created_Date0=92|Updated_By0=85|Updated_Date0=97
 [Table22]
 SchemaName=
 TableName=Shelf

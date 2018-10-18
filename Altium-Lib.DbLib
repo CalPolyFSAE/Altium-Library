@@ -5,7 +5,7 @@ ConnectionString=Provider=MSDASQL.1;Password=formulasae;Persist Security Info=Tr
 AddMode=3
 RemoveMode=1
 UpdateMode=2
-ViewMode=0
+ViewMode=1
 LeftQuote=`
 RightQuote=`
 QuoteTableNames=1
@@ -19,7 +19,7 @@ LibrarySearchPath=..\Altium-Library
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=1
 SchemaName=
-LastFocusedTable=IC-Misc
+LastFocusedTable=Container
 [Table1]
 SchemaName=
 TableName=ADC
@@ -47,9 +47,12 @@ UserWhereText=
 [Table5]
 SchemaName=
 TableName=Container
-Enabled=True
+Enabled=False
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=idContainer0=129|Shelf_idShelf0=135|Name0=112
 [Table6]
 SchemaName=
 TableName=Crystal
@@ -65,103 +68,118 @@ UserWhereText=
 [Table8]
 SchemaName=
 TableName=Drawer
-Enabled=True
+Enabled=False
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=idDrawer0=108|Container_idContainer0=211|Quantity0=106|Name0=112
 [Table9]
 SchemaName=
-TableName=Fuse
-Enabled=True
-UserWhere=0
-UserWhereText=
-[Table10]
-SchemaName=
-TableName=IC-Interface
-Enabled=True
-UserWhere=0
-UserWhereText=
-[Table11]
-SchemaName=
-TableName=IC-Microcontroller
-Enabled=True
-UserWhere=0
-UserWhereText=
-[Table12]
-SchemaName=
-TableName=IC-Misc
+TableName=FETs
 Enabled=True
 UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=idIC-Misc0=111|Manufacturer_id0=164|Drawer_id0=115|Name0=172|Value0=83|Type0=76|Protocol0=104|Num_Circuits0=141|Data_Rate0=117|Vin(Min)0=104|Vin(Max)0=107|Package0=103|MfrPartNo0=120|Link0=70|Description0=126|Comment0=116|ComponentLink1Description0=256|ComponentLink1URL0=200|Supplier10=111|Supplier1PartNo0=165|Created_By0=125|Created_Date0=143|Updated_By0=131|Updated_Date0=149|Library Ref0=223|Library Path0=346|Footprint Ref0=139|Footprint Path0=202
+BrowserOrder_Visible=idFETs0=87|Manufacturer_id0=164|Drawer_id0=115|Name0=118|Value0=84|Vdss0=75|Num_Circuits0=141|Id0=55|Rds_On0=97|Vgs(typ)0=102|Vgs(Max)0=110|Power(Max)0=129|Package0=103|MfrPartNo0=120|Link0=1176|Description0=358|Comment0=116|idFETs_copy10=139|ComponentLink1URL0=200|Supplier10=111|Supplier1PartNo0=180|Created_By0=125|Created_Date0=143|Updated_By0=131|Updated_Date0=149|Library Ref0=120|Library Path0=350|Footprint Ref0=192|Footprint Path0=223
+[Table10]
+SchemaName=
+TableName=Fuse
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table11]
+SchemaName=
+TableName=IC-Interface
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table12]
+SchemaName=
+TableName=IC-Microcontroller
+Enabled=True
+UserWhere=0
+UserWhereText=
 [Table13]
 SchemaName=
-TableName=Inductor
+TableName=IC-Misc
 Enabled=True
 UserWhere=0
 UserWhereText=
 [Table14]
 SchemaName=
-TableName=LED
+TableName=Inductor
 Enabled=True
 UserWhere=0
 UserWhereText=
 [Table15]
 SchemaName=
-TableName=MOSFET
+TableName=LED
 Enabled=True
 UserWhere=0
 UserWhereText=
 [Table16]
 SchemaName=
+TableName=MOSFET
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Description0=126|Library Ref0=120|Library Path0=131|Footprint Ref0=139|Footprint Path0=150|idMosfet0=106|Manufacturer_id0=164|Drawer_id0=115|Name0=86|Value0=83|Vdss0=75|Num_Circuits0=141|Id0=55|Rds_On0=97|Vgs(typ)0=102|Vgs(Max)0=110|Power(Max)0=129|Package0=103|MfrPartNo0=120|Link0=70|Comment0=116|ComponentLink1Description0=256|ComponentLink1URL0=200|Supplier10=111|Supplier1PartNo0=165|Created_By0=125|Created_Date0=143|Updated_By0=131|Updated_Date0=149
+[Table17]
+SchemaName=
 TableName=Manufacturer
 Enabled=False
 UserWhere=0
 UserWhereText=
-[Table17]
+[Table18]
 SchemaName=
 TableName=Op_Amp
 Enabled=True
 UserWhere=0
 UserWhereText=
-[Table18]
+[Table19]
 SchemaName=
 TableName=PMIC-Linear
 Enabled=True
 UserWhere=0
 UserWhereText=
-[Table19]
+[Table20]
 SchemaName=
 TableName=PMIC-Switching
 Enabled=True
 UserWhere=0
 UserWhereText=
-[Table20]
+[Table21]
 SchemaName=
 TableName=Relay
 Enabled=True
 UserWhere=0
 UserWhereText=
-[Table21]
+[Table22]
 SchemaName=
 TableName=Resistor
 Enabled=True
 UserWhere=0
 UserWhereText=
-[Table22]
+[Table23]
 SchemaName=
 TableName=Shelf
-Enabled=True
+Enabled=False
 UserWhere=0
 UserWhereText=
-[Table23]
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=idShelf0=91|Name0=112
+[Table24]
 SchemaName=
 TableName=Shunt
 Enabled=True
 UserWhere=0
 UserWhereText=
-[Table24]
+[Table25]
 SchemaName=
 TableName=Transformer
 Enabled=True
@@ -244,162 +262,180 @@ Options=FieldName=Diode.Footprint Path|TableNameOnly=Diode|FieldNameOnly=Footpri
 [FieldMap38]
 Options=FieldName=Diode.idDiode|TableNameOnly=Diode|FieldNameOnly=idDiode|FieldType=0|ParameterName=idDiode|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap39]
-Options=FieldName=IC-Interface.Description|TableNameOnly=IC-Interface|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=FETs.idFETs|TableNameOnly=FETs|FieldNameOnly=idFETs|FieldType=0|ParameterName=idFETs|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap40]
-Options=FieldName=IC-Interface.Library Ref|TableNameOnly=IC-Interface|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=FETs.Description|TableNameOnly=FETs|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap41]
-Options=FieldName=IC-Interface.Library Path|TableNameOnly=IC-Interface|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=FETs.Library Ref|TableNameOnly=FETs|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap42]
-Options=FieldName=IC-Interface.Footprint Ref|TableNameOnly=IC-Interface|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=FETs.Library Path|TableNameOnly=FETs|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap43]
-Options=FieldName=IC-Interface.Footprint Path|TableNameOnly=IC-Interface|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=FETs.Footprint Ref|TableNameOnly=FETs|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap44]
-Options=FieldName=IC-Interface.idIC_Interface|TableNameOnly=IC-Interface|FieldNameOnly=idIC_Interface|FieldType=0|ParameterName=idIC_Interface|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=FETs.Footprint Path|TableNameOnly=FETs|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap45]
-Options=FieldName=IC-Microcontroller.Description|TableNameOnly=IC-Microcontroller|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Fuse.Library Ref|TableNameOnly=Fuse|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap46]
-Options=FieldName=IC-Microcontroller.Library Ref|TableNameOnly=IC-Microcontroller|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Fuse.Library Path|TableNameOnly=Fuse|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap47]
-Options=FieldName=IC-Microcontroller.Library Path|TableNameOnly=IC-Microcontroller|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Fuse.Footprint Ref|TableNameOnly=Fuse|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap48]
-Options=FieldName=IC-Microcontroller.Footprint Ref|TableNameOnly=IC-Microcontroller|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Fuse.Footprint Path|TableNameOnly=Fuse|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap49]
-Options=FieldName=IC-Microcontroller.Footprint Path|TableNameOnly=IC-Microcontroller|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC-Interface.Description|TableNameOnly=IC-Interface|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap50]
-Options=FieldName=IC-Microcontroller.idMCU|TableNameOnly=IC-Microcontroller|FieldNameOnly=idMCU|FieldType=0|ParameterName=idMCU|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC-Interface.Library Ref|TableNameOnly=IC-Interface|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap51]
-Options=FieldName=IC-Misc.idIC-Misc|TableNameOnly=IC-Misc|FieldNameOnly=idIC-Misc|FieldType=0|ParameterName=idIC-Misc|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC-Interface.Library Path|TableNameOnly=IC-Interface|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap52]
-Options=FieldName=IC-Misc.Description|TableNameOnly=IC-Misc|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC-Interface.Footprint Ref|TableNameOnly=IC-Interface|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap53]
-Options=FieldName=IC-Misc.Library Ref|TableNameOnly=IC-Misc|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC-Interface.Footprint Path|TableNameOnly=IC-Interface|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap54]
-Options=FieldName=IC-Misc.Library Path|TableNameOnly=IC-Misc|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC-Interface.idIC_Interface|TableNameOnly=IC-Interface|FieldNameOnly=idIC_Interface|FieldType=0|ParameterName=idIC_Interface|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap55]
-Options=FieldName=IC-Misc.Footprint Ref|TableNameOnly=IC-Misc|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC-Microcontroller.Description|TableNameOnly=IC-Microcontroller|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap56]
-Options=FieldName=IC-Misc.Footprint Path|TableNameOnly=IC-Misc|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC-Microcontroller.Library Ref|TableNameOnly=IC-Microcontroller|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap57]
-Options=FieldName=Inductor.Description|TableNameOnly=Inductor|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC-Microcontroller.Library Path|TableNameOnly=IC-Microcontroller|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap58]
-Options=FieldName=Inductor.Library Ref|TableNameOnly=Inductor|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC-Microcontroller.Footprint Ref|TableNameOnly=IC-Microcontroller|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap59]
-Options=FieldName=Inductor.Library Path|TableNameOnly=Inductor|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC-Microcontroller.Footprint Path|TableNameOnly=IC-Microcontroller|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap60]
-Options=FieldName=Inductor.Footprint Ref|TableNameOnly=Inductor|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC-Microcontroller.idMCU|TableNameOnly=IC-Microcontroller|FieldNameOnly=idMCU|FieldType=0|ParameterName=idMCU|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap61]
-Options=FieldName=Inductor.Footprint Path|TableNameOnly=Inductor|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC-Misc.Description|TableNameOnly=IC-Misc|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap62]
-Options=FieldName=Inductor.idInductor|TableNameOnly=Inductor|FieldNameOnly=idInductor|FieldType=0|ParameterName=idInductor|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC-Misc.Library Ref|TableNameOnly=IC-Misc|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap63]
-Options=FieldName=LED.Description|TableNameOnly=LED|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC-Misc.Library Path|TableNameOnly=IC-Misc|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap64]
-Options=FieldName=LED.Library Ref|TableNameOnly=LED|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC-Misc.Footprint Ref|TableNameOnly=IC-Misc|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap65]
-Options=FieldName=LED.Library Path|TableNameOnly=LED|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=IC-Misc.Footprint Path|TableNameOnly=IC-Misc|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap66]
-Options=FieldName=LED.Footprint Ref|TableNameOnly=LED|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductor.Description|TableNameOnly=Inductor|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap67]
-Options=FieldName=LED.Footprint Path|TableNameOnly=LED|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductor.Library Ref|TableNameOnly=Inductor|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap68]
-Options=FieldName=LED.idLED|TableNameOnly=LED|FieldNameOnly=idLED|FieldType=0|ParameterName=idLED|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductor.Library Path|TableNameOnly=Inductor|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap69]
-Options=FieldName=MOSFET.Description|TableNameOnly=MOSFET|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductor.Footprint Ref|TableNameOnly=Inductor|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap70]
-Options=FieldName=MOSFET.Library Ref|TableNameOnly=MOSFET|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductor.Footprint Path|TableNameOnly=Inductor|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap71]
-Options=FieldName=MOSFET.Library Path|TableNameOnly=MOSFET|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Inductor.idInductor|TableNameOnly=Inductor|FieldNameOnly=idInductor|FieldType=0|ParameterName=idInductor|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap72]
-Options=FieldName=MOSFET.Footprint Ref|TableNameOnly=MOSFET|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=LED.Description|TableNameOnly=LED|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap73]
-Options=FieldName=MOSFET.Footprint Path|TableNameOnly=MOSFET|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=LED.Library Ref|TableNameOnly=LED|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap74]
-Options=FieldName=MOSFET.idMosfet|TableNameOnly=MOSFET|FieldNameOnly=idMosfet|FieldType=0|ParameterName=idMosfet|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=LED.Library Path|TableNameOnly=LED|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap75]
-Options=FieldName=Op_Amp.Description|TableNameOnly=Op_Amp|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=LED.Footprint Ref|TableNameOnly=LED|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap76]
-Options=FieldName=Op_Amp.Library Ref|TableNameOnly=Op_Amp|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=LED.Footprint Path|TableNameOnly=LED|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap77]
-Options=FieldName=Op_Amp.Library Path|TableNameOnly=Op_Amp|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=LED.idLED|TableNameOnly=LED|FieldNameOnly=idLED|FieldType=0|ParameterName=idLED|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap78]
-Options=FieldName=Op_Amp.Footprint Ref|TableNameOnly=Op_Amp|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=MOSFET.Description|TableNameOnly=MOSFET|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap79]
-Options=FieldName=Op_Amp.Footprint Path|TableNameOnly=Op_Amp|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=MOSFET.Library Ref|TableNameOnly=MOSFET|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap80]
-Options=FieldName=Op_Amp.idOp_Amp|TableNameOnly=Op_Amp|FieldNameOnly=idOp_Amp|FieldType=0|ParameterName=idOp_Amp|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=MOSFET.Library Path|TableNameOnly=MOSFET|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap81]
-Options=FieldName=PMIC-Linear.Description|TableNameOnly=PMIC-Linear|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=MOSFET.Footprint Ref|TableNameOnly=MOSFET|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap82]
-Options=FieldName=PMIC-Linear.Library Ref|TableNameOnly=PMIC-Linear|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=MOSFET.Footprint Path|TableNameOnly=MOSFET|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap83]
-Options=FieldName=PMIC-Linear.Library Path|TableNameOnly=PMIC-Linear|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=MOSFET.idMosfet|TableNameOnly=MOSFET|FieldNameOnly=idMosfet|FieldType=0|ParameterName=idMosfet|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap84]
-Options=FieldName=PMIC-Linear.Footprint Ref|TableNameOnly=PMIC-Linear|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Op_Amp.Description|TableNameOnly=Op_Amp|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap85]
-Options=FieldName=PMIC-Linear.Footprint Path|TableNameOnly=PMIC-Linear|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Op_Amp.Library Ref|TableNameOnly=Op_Amp|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap86]
-Options=FieldName=PMIC-Linear.idPMIC_Lin|TableNameOnly=PMIC-Linear|FieldNameOnly=idPMIC_Lin|FieldType=0|ParameterName=idPMIC_Lin|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Op_Amp.Library Path|TableNameOnly=Op_Amp|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap87]
-Options=FieldName=PMIC-Switching.Description|TableNameOnly=PMIC-Switching|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Op_Amp.Footprint Ref|TableNameOnly=Op_Amp|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap88]
-Options=FieldName=PMIC-Switching.Library Ref|TableNameOnly=PMIC-Switching|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Op_Amp.Footprint Path|TableNameOnly=Op_Amp|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap89]
-Options=FieldName=PMIC-Switching.Library Path|TableNameOnly=PMIC-Switching|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Op_Amp.idOp_Amp|TableNameOnly=Op_Amp|FieldNameOnly=idOp_Amp|FieldType=0|ParameterName=idOp_Amp|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap90]
-Options=FieldName=PMIC-Switching.Footprint Ref|TableNameOnly=PMIC-Switching|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=PMIC-Linear.Description|TableNameOnly=PMIC-Linear|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap91]
-Options=FieldName=PMIC-Switching.Footprint Path|TableNameOnly=PMIC-Switching|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=PMIC-Linear.Library Ref|TableNameOnly=PMIC-Linear|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap92]
-Options=FieldName=PMIC-Switching.idPMIC_SW|TableNameOnly=PMIC-Switching|FieldNameOnly=idPMIC_SW|FieldType=0|ParameterName=idPMIC_SW|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=PMIC-Linear.Library Path|TableNameOnly=PMIC-Linear|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap93]
-Options=FieldName=Relay.Description|TableNameOnly=Relay|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=PMIC-Linear.Footprint Ref|TableNameOnly=PMIC-Linear|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap94]
-Options=FieldName=Relay.Library Ref|TableNameOnly=Relay|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=PMIC-Linear.Footprint Path|TableNameOnly=PMIC-Linear|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap95]
-Options=FieldName=Relay.Library Path|TableNameOnly=Relay|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=PMIC-Linear.idPMIC_Lin|TableNameOnly=PMIC-Linear|FieldNameOnly=idPMIC_Lin|FieldType=0|ParameterName=idPMIC_Lin|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap96]
-Options=FieldName=Relay.Footprint Ref|TableNameOnly=Relay|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=PMIC-Switching.Description|TableNameOnly=PMIC-Switching|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap97]
-Options=FieldName=Relay.Footprint Path|TableNameOnly=Relay|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=PMIC-Switching.Library Ref|TableNameOnly=PMIC-Switching|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap98]
-Options=FieldName=Relay.idRelay|TableNameOnly=Relay|FieldNameOnly=idRelay|FieldType=0|ParameterName=idRelay|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=PMIC-Switching.Library Path|TableNameOnly=PMIC-Switching|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap99]
-Options=FieldName=Resistor.idResistor|TableNameOnly=Resistor|FieldNameOnly=idResistor|FieldType=0|ParameterName=idResistor|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=PMIC-Switching.Footprint Ref|TableNameOnly=PMIC-Switching|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap100]
-Options=FieldName=Resistor.Description|TableNameOnly=Resistor|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=PMIC-Switching.Footprint Path|TableNameOnly=PMIC-Switching|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap101]
-Options=FieldName=Resistor.Library Ref|TableNameOnly=Resistor|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=PMIC-Switching.idPMIC_SW|TableNameOnly=PMIC-Switching|FieldNameOnly=idPMIC_SW|FieldType=0|ParameterName=idPMIC_SW|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap102]
-Options=FieldName=Resistor.Library Path|TableNameOnly=Resistor|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Relay.Description|TableNameOnly=Relay|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap103]
-Options=FieldName=Resistor.Footprint Ref|TableNameOnly=Resistor|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Relay.Library Ref|TableNameOnly=Relay|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap104]
-Options=FieldName=Resistor.Footprint Path|TableNameOnly=Resistor|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Relay.Library Path|TableNameOnly=Relay|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap105]
-Options=FieldName=Resistor.Supplier1|TableNameOnly=Resistor|FieldNameOnly=Supplier1|FieldType=1|ParameterName=Supplier 1|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Relay.Footprint Ref|TableNameOnly=Relay|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap106]
-Options=FieldName=Resistor.Supplier1PartNo|TableNameOnly=Resistor|FieldNameOnly=Supplier1PartNo|FieldType=1|ParameterName=Supplier Part Number 1|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Relay.Footprint Path|TableNameOnly=Relay|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap107]
-Options=FieldName=Shunt.Description|TableNameOnly=Shunt|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Relay.idRelay|TableNameOnly=Relay|FieldNameOnly=idRelay|FieldType=0|ParameterName=idRelay|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap108]
-Options=FieldName=Shunt.Library Ref|TableNameOnly=Shunt|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistor.idResistor|TableNameOnly=Resistor|FieldNameOnly=idResistor|FieldType=0|ParameterName=idResistor|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap109]
-Options=FieldName=Shunt.Library Path|TableNameOnly=Shunt|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistor.Description|TableNameOnly=Resistor|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap110]
-Options=FieldName=Shunt.Footprint Ref|TableNameOnly=Shunt|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistor.Library Ref|TableNameOnly=Resistor|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap111]
-Options=FieldName=Shunt.Footprint Path|TableNameOnly=Shunt|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistor.Library Path|TableNameOnly=Resistor|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap112]
-Options=FieldName=Shunt.idShunt|TableNameOnly=Shunt|FieldNameOnly=idShunt|FieldType=0|ParameterName=idShunt|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistor.Footprint Ref|TableNameOnly=Resistor|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap113]
-Options=FieldName=Transformer.Description|TableNameOnly=Transformer|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistor.Footprint Path|TableNameOnly=Resistor|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap114]
-Options=FieldName=Transformer.Library Ref|TableNameOnly=Transformer|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistor.Supplier1|TableNameOnly=Resistor|FieldNameOnly=Supplier1|FieldType=1|ParameterName=Supplier 1|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap115]
-Options=FieldName=Transformer.Library Path|TableNameOnly=Transformer|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistor.Supplier1PartNo|TableNameOnly=Resistor|FieldNameOnly=Supplier1PartNo|FieldType=1|ParameterName=Supplier Part Number 1|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap116]
-Options=FieldName=Transformer.Footprint Ref|TableNameOnly=Transformer|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Shunt.Description|TableNameOnly=Shunt|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap117]
-Options=FieldName=Transformer.Footprint Path|TableNameOnly=Transformer|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Shunt.Library Ref|TableNameOnly=Shunt|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap118]
+Options=FieldName=Shunt.Library Path|TableNameOnly=Shunt|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap119]
+Options=FieldName=Shunt.Footprint Ref|TableNameOnly=Shunt|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap120]
+Options=FieldName=Shunt.Footprint Path|TableNameOnly=Shunt|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap121]
+Options=FieldName=Shunt.idShunt|TableNameOnly=Shunt|FieldNameOnly=idShunt|FieldType=0|ParameterName=idShunt|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap122]
+Options=FieldName=Transformer.Description|TableNameOnly=Transformer|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap123]
+Options=FieldName=Transformer.Library Ref|TableNameOnly=Transformer|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap124]
+Options=FieldName=Transformer.Library Path|TableNameOnly=Transformer|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap125]
+Options=FieldName=Transformer.Footprint Ref|TableNameOnly=Transformer|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap126]
+Options=FieldName=Transformer.Footprint Path|TableNameOnly=Transformer|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap127]
 Options=FieldName=Transformer.idTransformer|TableNameOnly=Transformer|FieldNameOnly=idTransformer|FieldType=0|ParameterName=idTransformer|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0

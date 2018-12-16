@@ -19,7 +19,7 @@ LibrarySearchPath=..\Altium-Library
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=1
 SchemaName=
-LastFocusedTable=Buttons&Switches
+LastFocusedTable=ADC
 [Table1]
 SchemaName=
 TableName=ADC
@@ -38,9 +38,6 @@ TableName=Buttons&Switches
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Description0=82|Library Ref0=108|Library Path0=187|Footprint Ref0=108|Footprint Path0=201|idTable0=60|Manufacturer_id0=108|Drawer_id0=75|Name0=183|Value0=79|Voltage_Rating0=102|Num_Contacts0=97|Num_Rows0=80|Pitch0=48|Package0=65|MfrPartNo0=95|Link0=600|ComponentLink1Description0=170|ComponentLink1URL0=131|Supplier10=72|Supplier1PartNo0=107|Created_By0=80|Created_Date0=92|Updated_By0=85|Updated_Date0=97
 [Table4]
 SchemaName=
 TableName=Capacitor
@@ -56,9 +53,12 @@ UserWhereText=
 [Table6]
 SchemaName=
 TableName=Container
-Enabled=False
+Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=idContainer0=96|Shelf_idShelf0=100|Name0=92
 [Table7]
 SchemaName=
 TableName=Crystal
@@ -74,9 +74,12 @@ UserWhereText=
 [Table9]
 SchemaName=
 TableName=Drawer
-Enabled=False
+Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=idDrawer0=80|Container_idContainer0=162|Quantity0=79|Name0=92
 [Table10]
 SchemaName=
 TableName=FETs
@@ -122,9 +125,12 @@ UserWhereText=
 [Table17]
 SchemaName=
 TableName=Manufacturer
-Enabled=False
+Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ManufacturerID0=122|Name0=176|Link0=247|Contact_Name0=115|Contact_Email0=111|Contact_Phone0=118|Contact_Address0=128|Comment0=123|Sponsorship_Status0=144
 [Table18]
 SchemaName=
 TableName=Op_Amp
@@ -158,9 +164,12 @@ UserWhereText=
 [Table23]
 SchemaName=
 TableName=Shelf
-Enabled=False
+Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=idShelf0=65|Name0=92
 [Table24]
 SchemaName=
 TableName=Shunt

@@ -1,0 +1,4 @@
+AltiumUser
+CalPolyRacing
+jdbc:mysql://10.0.0.59:3306/Altium?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+com.mysql.cj.jdbc.Driver

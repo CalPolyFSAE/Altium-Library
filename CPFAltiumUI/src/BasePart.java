@@ -6,7 +6,6 @@ public class BasePart {
     protected String name;
 
     protected int quantity;
-    protected String location;
     protected String description;
     protected String libraryRef;
     protected String libraryPath;
@@ -16,6 +15,7 @@ public class BasePart {
     protected Date createdDate;
     protected String updatedby;
     protected Date UpdatedDate;
+    protected String link;
 
     public int getId() {
         return id;
@@ -65,8 +65,8 @@ public class BasePart {
         return UpdatedDate;
     }
 
-    public String getLocation() {
-        return location;
+    public String getLink() {
+        return link;
     }
 
     public BasePart(BaseAddEditPanel panel)
@@ -74,12 +74,12 @@ public class BasePart {
         this.name = ((JTextArea)panel.name.getInput()).getText();
 
         this.quantity = Integer.parseInt(((JTextArea)panel.quantity.getInput()).getText());
-        this.location = ((JTextArea)panel.location.getInput()).getText();
         this.description = ((JTextArea)panel.description.getInput()).getText();
         this.libraryRef = ((JTextArea)panel.libraryRef.getInput()).getText();
         this.libraryPath = ((JFileChooser)panel.libraryPath.getInput()).getSelectedFile().getAbsolutePath().split("Altium-Library\\\\")[1].replace("\\","/");
         this.footprintRef = ((JTextArea)panel.footprintRef.getInput()).getText();
         this.footprintPath = ((JFileChooser)panel.footprintPath.getInput()).getSelectedFile().getAbsolutePath().split("Altium-Library\\\\")[1].replace("\\","/");
+        this.link = ((JTextArea)panel.link.getInput()).getText();
     }
 
 }

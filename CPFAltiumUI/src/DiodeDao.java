@@ -32,7 +32,7 @@ public class DiodeDao {
             ps.setFloat(7, diode.getPower());
             ps.setString(8, diode.getPackageString());
             ps.setInt(9, diode.getQuantity());
-            ps.setString(10, diode.getLocation());
+            //ps.setString(10, diode.getLocation());
             ps.setString(11, diode.getDescription());
             ps.setString(12, diode.getLibraryRef());
             ps.setString(13, diode.getLibraryPath());

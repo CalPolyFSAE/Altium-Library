@@ -22,25 +22,24 @@ public class BjtDao{
         PreparedStatement ps = null;
         try {
             ps = this.connection.prepareStatement(
-                    "INSERT INTO bjts (name, current, type, power, hfe, ic, vcemax, package, quantity, location, Description, `Library Ref`, `Library Path`, `Footprint Ref`, `Footprint Path`, createdby, createddate, updatedby, updateddate)"+
-                            " VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW(), ?, NOW())");
+                    "INSERT INTO bjts (name, type, power, beta, ic, vcemax, package, quantity, Description, `Library Ref`, `Library Path`, `Footprint Ref`, `Footprint Path`, link, createdby, createddate, updatedby, updateddate)"+
+                            " VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW(), ?, NOW())");
             ps.setString(1, bjt.getName());
-            ps.setFloat(2, bjt.getCurrent());
-            ps.setString(3, bjt.getType());
-            ps.setFloat(4, bjt.getPower());
-            ps.setFloat(5, bjt.getHfe());
-            ps.setFloat(6, bjt.getIc());
-            ps.setFloat(7, bjt.getVcemax());
-            ps.setString(8, bjt.getPackageString());
-            ps.setInt(9, bjt.getQuantity());
-            ps.setString(10, bjt.getLocation());
-            ps.setString(11, bjt.getDescription());
-            ps.setString(12, bjt.getLibraryRef());
-            ps.setString(13, bjt.getLibraryPath());
-            ps.setString(14, bjt.getFootprintRef());
-            ps.setString(15, bjt.getFootprintPath());
+            ps.setString(2, bjt.getType());
+            ps.setFloat(3, bjt.getPower());
+            ps.setFloat(4, bjt.getBeta());
+            ps.setFloat(5, bjt.getIc());
+            ps.setFloat(6, bjt.getVcemax());
+            ps.setString(7, bjt.getPackageString());
+            ps.setInt(8, bjt.getQuantity());
+            ps.setString(9, bjt.getDescription());
+            ps.setString(10, bjt.getLibraryRef());
+            ps.setString(11, bjt.getLibraryPath());
+            ps.setString(12, bjt.getFootprintRef());
+            ps.setString(13, bjt.getFootprintPath());
+            ps.setString(14, bjt.getLink());
+            ps.setString(15, DefaultData.name);
             ps.setString(16, DefaultData.name);
-            ps.setString(17, DefaultData.name);
 
             ret = ps.executeUpdate();
         } catch (SQLException e) {

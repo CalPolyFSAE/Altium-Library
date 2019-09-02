@@ -29,6 +29,8 @@ public class MainMenu extends JFrame{
         mainPanel.add(new CapacitorListPanel(), "CapacitorListPanel");
         mainPanel.add(new ResistorListPanel(), "ResistorListPanel");
         mainPanel.add(new DiodeListPanel(), "DiodeListPanel");
+        mainPanel.add(new FetListPanel(), "FetListPanel");
+
         cardLayout.show(mainPanel,"LoginPage");
         this.add(mainPanel);
 
@@ -62,6 +64,7 @@ public class MainMenu extends JFrame{
                         cardLayout.show(mainPanel, "DiodeListPanel");
                         break;
                     case Fets:
+                        cardLayout.show(mainPanel, "FetListPanel");
                         break;
                     case Fuses:
                         break;
@@ -73,13 +76,9 @@ public class MainMenu extends JFrame{
                         break;
                     case Indcuctors:
                         break;
-                    case LEDs:
-                        break;
                     case OpAmps:
                         break;
-                    case PmicLinear:
-                        break;
-                    case PmicSwitching:
+                    case Pmic:
                         break;
                     case Relays:
                         break;

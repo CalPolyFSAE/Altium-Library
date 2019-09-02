@@ -19,7 +19,7 @@ public class ResistorDao {
         PreparedStatement ps = null;
         try {
             ps = this.connection.prepareStatement(
-                    "INSERT INTO `cpf_altium`.`resistors` (`id`, `name`, `resistance`, `percent tolerance`, `power`, `package`, `quantity`, `location`, `description`, `Library Ref`, `Library Path`, `Footprint Ref`, `Footprint Path`, `createdby`, `createddate`, `updatedby`, `updateddate`)"+
+                    "INSERT INTO `cpf_altium`.`resistors` (`id`, `name`, `resistance`, `percent tolerance`, `power`, `package`, `quantity`, `description`, `Library Ref`, `Library Path`, `Footprint Ref`, `Footprint Path`, link, `createdby`, `createddate`, `updatedby`, `updateddate`)"+
                             " VALUES (0, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW(), ?, NOW())");
             ps.setString(1, resistor.getName());
             ps.setString(2, resistor.getResistance());
@@ -27,12 +27,12 @@ public class ResistorDao {
             ps.setString(4, resistor.getPower());
             ps.setString(5, resistor.getPackageString());
             ps.setInt(6, resistor.getQuantity());
-            ps.setString(7, resistor.getLocation());
-            ps.setString(8, resistor.getDescription());
-            ps.setString(9, resistor.getLibraryRef());
-            ps.setString(10, resistor.getLibraryPath());
-            ps.setString(11, resistor.getFootprintRef());
-            ps.setString(12, resistor.getFootprintPath());
+            ps.setString(7, resistor.getDescription());
+            ps.setString(8, resistor.getLibraryRef());
+            ps.setString(9, resistor.getLibraryPath());
+            ps.setString(10, resistor.getFootprintRef());
+            ps.setString(11, resistor.getFootprintPath());
+            ps.setString(12, resistor.getLink());
             ps.setString(13, DefaultData.name);
             ps.setString(14, DefaultData.name);
 

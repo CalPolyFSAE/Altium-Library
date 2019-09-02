@@ -33,10 +33,8 @@ public class TopMenu extends JMenuBar {
         IcMicrocontollers,
         IcMisc,
         Indcuctors,
-        LEDs,
         OpAmps,
-        PmicLinear,
-        PmicSwitching,
+        Pmic,
         Relays,
         Resistors,
         Shunts,
@@ -61,10 +59,7 @@ public class TopMenu extends JMenuBar {
         put(buttonTypes.IcMicrocontollers, "IC-Microcontollers");
         put(buttonTypes.IcMisc, "IC-Misc");
         put(buttonTypes.Indcuctors, "Indcuctors");
-        put(buttonTypes.LEDs, "LEDs");
         put(buttonTypes.OpAmps, "OpAmps");
-        put(buttonTypes.PmicLinear, "PmicLinear");
-        put(buttonTypes.PmicSwitching, "PmicSwitching");
         put(buttonTypes.Relays, "Relays");
         put(buttonTypes.Resistors, "Resistors");
         put(buttonTypes.Shunts, "Shunts");
@@ -89,10 +84,7 @@ public class TopMenu extends JMenuBar {
         addMenuItem(componentMenuDropdown, buttonTypes.IcInterfaces);
         addMenuItem(componentMenuDropdown, buttonTypes.IcMicrocontollers);
         addMenuItem(componentMenuDropdown, buttonTypes.IcMisc);
-        addMenuItem(componentMenuDropdown, buttonTypes.LEDs);
         addMenuItem(componentMenuDropdown, buttonTypes.OpAmps);
-        addMenuItem(componentMenuDropdown, buttonTypes.PmicLinear);
-        addMenuItem(componentMenuDropdown, buttonTypes.PmicSwitching);
         addMenuItem(componentMenuDropdown, buttonTypes.Relays);
         addMenuItem(componentMenuDropdown, buttonTypes.Resistors);
         addMenuItem(componentMenuDropdown, buttonTypes.Shunts);

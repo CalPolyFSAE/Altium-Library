@@ -18,12 +18,12 @@ public abstract class BaseAddEditPanel extends JPanel  {
     protected LabelAndInput name = new LabelAndInput(new JLabel("Name*:"), new JTextArea(1, 15));
 
     protected LabelAndInput quantity = new LabelAndInput(new JLabel("Quantity*:"), new JTextArea(1, 15));
-    protected LabelAndInput location = new LabelAndInput(new JLabel("Location:"), new JTextArea(1, 15));
     protected LabelAndInput description = new LabelAndInput(new JLabel("Desciption*:"), new JTextArea(1, 15));
     protected LabelAndInput libraryRef = new LabelAndInput(new JLabel("Library Ref*:"), new JTextArea(1, 15));
     protected LabelAndInput libraryPath = new LabelAndInput(new JLabel("Library Path*:"), new JFileChooser());
     protected LabelAndInput footprintRef = new LabelAndInput(new JLabel("Footprint Ref*:"), new JTextArea(1, 15));
-    protected LabelAndInput footprintPath = new LabelAndInput(new JLabel("Foorprint path:"), new JFileChooser());
+    protected LabelAndInput footprintPath = new LabelAndInput(new JLabel("Foorprint Path*:"), new JFileChooser());
+    protected LabelAndInput link = new LabelAndInput(new JLabel("Link:"), new JTextArea(1, 30));
 
     protected EventListenerList listenerList = new EventListenerList();
     JButton addBtn;
@@ -90,12 +90,12 @@ public abstract class BaseAddEditPanel extends JPanel  {
 
     protected void addLibraryFootprintInput(){
         addLabelAndInput(quantity);
-        addLabelAndInput(location);
         addLabelAndInput(description);
         addLabelAndInput(libraryRef);
         addLabelAndInput(libraryPath);
         addLabelAndInput(footprintRef);
         addLabelAndInput(footprintPath);
+        addLabelAndInput(link);
         gc.gridx +=1;
         add(addBtn, gc);
     }

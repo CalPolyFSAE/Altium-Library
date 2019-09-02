@@ -125,4 +125,9 @@ public class DaoManager {
         getConnection();
         return new DiodeDao(this.connection);
     }
+
+    public FetDao getFetDao(){
+        getConnection();
+        return new FetDao(this.connection);
+    }
 }

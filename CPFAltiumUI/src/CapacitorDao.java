@@ -21,7 +21,7 @@ public class CapacitorDao {
         PreparedStatement ps = null;
         try {
             ps = this.connection.prepareStatement(
-                    "INSERT INTO capacitors (`id`,`name`, `capacitance`, `voltage`, `dielectric`, `percent tolerance`, `ESR`, `package`, `quantity`, `location`, `Description`, `Library Ref`, `Library Path`, `Footprint Ref`, `Footprint Path`, `createdby`, `createddate`, `updatedby`, `updateddate`)"+
+                    "INSERT INTO capacitors (`id`,`name`, `capacitance`, `voltage`, `dielectric`, `percent tolerance`, `ESR`, `package`, `quantity`, `Description`, `Library Ref`, `Library Path`, `Footprint Ref`, `Footprint Path`, link, `createdby`, `createddate`, `updatedby`, `updateddate`)"+
                             " VALUES (0, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW(), ?, NOW());");
             ps.setString(1, capacitor.getName());
             ps.setString(2, capacitor.getCapacitance());
@@ -31,12 +31,12 @@ public class CapacitorDao {
             ps.setString(6, capacitor.getEsr());
             ps.setString(7, capacitor.getPackageString());
             ps.setInt(8, capacitor.getQuantity());
-            ps.setString(9, capacitor.getLocation());
-            ps.setString(10, capacitor.getDescription());
-            ps.setString(11, capacitor.getLibraryRef());
-            ps.setString(12, capacitor.getLibraryPath());
-            ps.setString(13, capacitor.getFootprintRef());
-            ps.setString(14, capacitor.getFootprintPath());
+            ps.setString(9, capacitor.getDescription());
+            ps.setString(10, capacitor.getLibraryRef());
+            ps.setString(11, capacitor.getLibraryPath());
+            ps.setString(12, capacitor.getFootprintRef());
+            ps.setString(13, capacitor.getFootprintPath());
+            ps.setString(14, capacitor.getLink());
             ps.setString(15, DefaultData.name);
             ps.setString(16, DefaultData.name);
 

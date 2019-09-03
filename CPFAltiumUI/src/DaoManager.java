@@ -130,4 +130,38 @@ public class DaoManager {
         getConnection();
         return new FetDao(this.connection);
     }
+
+    public PmicDao getPmicDao(){
+        getConnection();
+        return new PmicDao(this.connection);
+    }
+
+    public FuseDao getFuseDao(){
+        getConnection();
+        return new FuseDao(this.connection);
+    }
+
+    public IcMiscDao getIcMiscDao(){
+        getConnection();
+        return new IcMiscDao(this.connection);
+    }
+
+    public ConnectorDao getConnectorDao(){
+        getConnection();
+        return new ConnectorDao(this.connection);
+    }
+    public IcInterfaceDao getIcInterfaceDao(){
+        getConnection();
+        return new IcInterfaceDao(this.connection);
+    }
+    public InductorDao getInductorDao(){
+        getConnection();
+        return new InductorDao(this.connection);
+    }
+
+    public RelayDao getRelayDao(){
+        getConnection();
+        return new RelayDao(this.connection);
+    }
+
 }

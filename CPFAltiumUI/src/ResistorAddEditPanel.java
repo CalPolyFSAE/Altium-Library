@@ -7,7 +7,7 @@ public class ResistorAddEditPanel extends BaseAddEditPanel{
    protected BaseAddEditPanel.LabelAndInput packages = new BaseAddEditPanel.LabelAndInput(new JLabel("Package:"), new JTextArea(1, 15));
 
     public ResistorAddEditPanel(boolean isadd){
-        super("Resistor");
+        super("PMIC");
         setupLabelsAndInputs();
     }
 

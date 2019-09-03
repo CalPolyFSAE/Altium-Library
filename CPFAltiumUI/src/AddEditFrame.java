@@ -16,7 +16,7 @@ public class AddEditFrame extends JFrame{
         add(jScrollPane, BorderLayout.CENTER);
         pack();
 
-        this.setSize(650,800);//400 width and 500 height
+        this.setSize(650,600);//400 width and 500 height
         this.setVisible(true);//making the frame visible
     }
 }

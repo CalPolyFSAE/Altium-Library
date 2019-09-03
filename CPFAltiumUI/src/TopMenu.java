@@ -58,8 +58,9 @@ public class TopMenu extends JMenuBar {
         put(buttonTypes.IcInterfaces, "IC-Interfaces");
         put(buttonTypes.IcMicrocontollers, "IC-Microcontollers");
         put(buttonTypes.IcMisc, "IC-Misc");
-        put(buttonTypes.Indcuctors, "Indcuctors");
+        put(buttonTypes.Indcuctors, "Inductors");
         put(buttonTypes.OpAmps, "OpAmps");
+        put(buttonTypes.Pmic, "PMIC");
         put(buttonTypes.Relays, "Relays");
         put(buttonTypes.Resistors, "Resistors");
         put(buttonTypes.Shunts, "Shunts");
@@ -84,7 +85,9 @@ public class TopMenu extends JMenuBar {
         addMenuItem(componentMenuDropdown, buttonTypes.IcInterfaces);
         addMenuItem(componentMenuDropdown, buttonTypes.IcMicrocontollers);
         addMenuItem(componentMenuDropdown, buttonTypes.IcMisc);
+        addMenuItem(componentMenuDropdown, buttonTypes.Indcuctors);
         addMenuItem(componentMenuDropdown, buttonTypes.OpAmps);
+        addMenuItem(componentMenuDropdown, buttonTypes.Pmic);
         addMenuItem(componentMenuDropdown, buttonTypes.Relays);
         addMenuItem(componentMenuDropdown, buttonTypes.Resistors);
         addMenuItem(componentMenuDropdown, buttonTypes.Shunts);

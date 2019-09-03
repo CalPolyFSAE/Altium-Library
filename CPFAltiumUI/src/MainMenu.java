@@ -30,6 +30,13 @@ public class MainMenu extends JFrame{
         mainPanel.add(new ResistorListPanel(), "ResistorListPanel");
         mainPanel.add(new DiodeListPanel(), "DiodeListPanel");
         mainPanel.add(new FetListPanel(), "FetListPanel");
+        mainPanel.add(new PmicListPanel(), "PmicListPanel");
+        mainPanel.add(new FuseListPanel(), "FuseListPanel");
+        mainPanel.add(new IcMiscListPanel(), "IcMiscListPanel");
+        mainPanel.add(new ConnectorListPanel(), "ConnectorListPanel");
+        mainPanel.add(new IcInterfaceListPanel(), "IcInterfaceListPanel");
+        mainPanel.add(new InductorListPanel(), "InductorListPanel");
+        mainPanel.add(new RelayListPanel(), "RelayListPanel");
 
         cardLayout.show(mainPanel,"LoginPage");
         this.add(mainPanel);
@@ -57,6 +64,7 @@ public class MainMenu extends JFrame{
                         cardLayout.show(mainPanel, "CapacitorListPanel");
                         break;
                     case Connectors:
+                        cardLayout.show(mainPanel, "ConnectorListPanel");
                         break;
                     case Crystals:
                         break;
@@ -67,20 +75,26 @@ public class MainMenu extends JFrame{
                         cardLayout.show(mainPanel, "FetListPanel");
                         break;
                     case Fuses:
+                        cardLayout.show(mainPanel, "FuseListPanel");
                         break;
                     case IcInterfaces:
+                        cardLayout.show(mainPanel, "IcInterfaceListPanel");
                         break;
                     case IcMicrocontollers:
                         break;
                     case IcMisc:
+                        cardLayout.show(mainPanel, "IcMiscListPanel");
                         break;
                     case Indcuctors:
+                        cardLayout.show(mainPanel, "InductorListPanel");
                         break;
                     case OpAmps:
                         break;
                     case Pmic:
+                        cardLayout.show(mainPanel, "PmicListPanel");
                         break;
                     case Relays:
+                        cardLayout.show(mainPanel, "RelayListPanel");
                         break;
                     case Resistors:
                         cardLayout.show(mainPanel, "ResistorListPanel");

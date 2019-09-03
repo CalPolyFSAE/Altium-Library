@@ -40,6 +40,6 @@ public class Capacitor extends BasePart{
         this.dielectric = ((JComboBox)panel.dielectric.getInput()).getSelectedItem().toString();
         this.percentTolerance = Float.parseFloat(((JTextArea)panel.percentTolerance.getInput()).getText());
         this.esr = ((JTextArea)panel.esr.getInput()).getText();
-        this.packageString = ((JTextArea)panel.name.getInput()).getText();
+        this.packageString = ((JTextArea)panel.packages.getInput()).getText();
     }
 }

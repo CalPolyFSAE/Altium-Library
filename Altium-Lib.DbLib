@@ -1,7 +1,7 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=MSDASQL.1;Password=formulasae;Persist Security Info=True;User ID=cpracing;Extended Properties="Driver=MySQL ODBC 8.0 ANSI Driver;SERVER={altium.cyyn3lqbjhax.us-east-2.rds.amazonaws.com};UID=cpracing;PWD=formulasae;DATABASE=Altium;PORT=3306";Initial Catalog=Altium
+ConnectionString=Provider=MSDASQL.1;Password=CalPolySpiders!;Persist Security Info=True;User ID=altiumuser;Extended Properties="Driver=MySQL ODBC 8.0 ANSI Driver;SERVER=mysql.cpfsae.org;UID=altiumuser;PWD={CalPolySpiders!};DATABASE=altium_2018;PORT=3306"
 AddMode=3
 RemoveMode=1
 UpdateMode=2
@@ -19,7 +19,7 @@ LibrarySearchPath=..\Altium-Library
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=1
 SchemaName=
-LastFocusedTable=ADC
+LastFocusedTable=Shelf
 [Table1]
 SchemaName=
 TableName=ADC
@@ -38,33 +38,45 @@ TableName=Buttons&Switches
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Description0=82|Library Ref0=110|Library Path0=189|Footprint Ref0=110|Footprint Path0=245|idTable0=61|Manufacturer_id0=108|Drawer_id0=75|Name0=183|Value0=79|Voltage_Rating0=102|Num_Contacts0=97|Num_Rows0=80|Pitch0=48|Package0=65|MfrPartNo0=103|Link0=600|ComponentLink1Description0=170|ComponentLink1URL0=695|Supplier10=72|Supplier1PartNo0=107|Created_By0=79|Created_Date0=92|Updated_By0=84|Updated_Date0=97
 [Table4]
 SchemaName=
 TableName=Capacitor
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Description0=388|Supplier10=72|Supplier1PartNo0=107|Library Ref0=117|Library Path0=128|Footprint Ref0=138|Footprint Path0=225|idCapacitor0=82|Manufacturer_id0=108|Drawer_id0=75|Name0=181|Value0=52|Voltage_Rating0=102|Dielectric0=81|Tolerance0=73|ESR0=42|Package0=83|MfrPartNo0=125|Link0=712|Comment0=293|ComponentLink1Description0=170|ComponentLink1URL0=464|Created_By0=85|Created_Date0=92|Updated_By0=84|Updated_Date0=97
 [Table5]
 SchemaName=
 TableName=Connector
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Description0=387|Library Ref0=129|Library Path0=217|Footprint Ref0=172|Footprint Path0=236|idConn0=61|Manufacturer_id0=108|Drawer_id0=75|Name0=156|Value0=52|Voltage_Rating0=102|Num_Contacts0=97|Num_Rows0=80|Pitch0=50|Package0=65|MfrPartNo0=94|Link0=1187|ComponentLink1Description0=170|ComponentLink1URL0=801|Supplier10=72|Supplier1PartNo0=507|Created_By0=79|Created_Date0=92|Updated_By0=84|Updated_Date0=97
 [Table6]
 SchemaName=
 TableName=Container
-Enabled=True
+Enabled=False
 UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=idContainer0=96|Shelf_idShelf0=100|Name0=92
+BrowserOrder_Visible=idContainer0=84|Shelf_idShelf0=90|Name0=77
 [Table7]
 SchemaName=
 TableName=Crystal
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Description0=178|Library Ref0=121|Library Path0=203|Footprint Ref0=92|Footprint Path0=152|idCrystal0=67|Manufacturer_id0=108|Drawer_id0=75|Name0=94|Value0=52|Frequency0=76|Tolerance0=73|Load_Capacitance0=115|Package0=65|MfrPartNo0=76|Link0=540|Comment0=72|ComponentLink1Description0=170|ComponentLink1URL0=131|Supplier10=72|Supplier1PartNo0=107|Created_By0=79|Created_Date0=92|Updated_By0=84|Updated_Date0=97
 [Table8]
 SchemaName=
 TableName=Diode
@@ -74,12 +86,12 @@ UserWhereText=
 [Table9]
 SchemaName=
 TableName=Drawer
-Enabled=True
+Enabled=False
 UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=idDrawer0=80|Container_idContainer0=162|Quantity0=79|Name0=92
+BrowserOrder_Visible=idDrawer0=70|Container_idContainer0=140|Quantity0=67|Name0=77
 [Table10]
 SchemaName=
 TableName=FETs
@@ -92,6 +104,9 @@ TableName=Fuse
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Library Ref0=77|Library Path0=133|Footprint Ref0=118|Footprint Path0=211|idFuse0=57|Manufacturer_id0=108|Drawer_id0=75|Name0=135|Value0=136|I_hold0=55|I_trip0=49|I_max0=51|V_max0=55|Pd_Typ0=59|MfrPartNo0=94|Link0=503|Created_By0=92|Created_Date0=92|Updated_By0=84|Updated_Date0=97
 [Table12]
 SchemaName=
 TableName=IC-Interface
@@ -125,12 +140,12 @@ UserWhereText=
 [Table17]
 SchemaName=
 TableName=Manufacturer
-Enabled=True
+Enabled=False
 UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=ManufacturerID0=122|Name0=176|Link0=247|Contact_Name0=115|Contact_Email0=111|Contact_Phone0=118|Contact_Address0=128|Comment0=123|Sponsorship_Status0=144
+BrowserOrder_Visible=ManufacturerID0=104|Name0=151|Link0=208|Contact_Name0=97|Contact_Email0=95|Contact_Phone0=101|Contact_Address0=109|Comment0=103|Sponsorship_Status0=125
 [Table18]
 SchemaName=
 TableName=Op_Amp
@@ -164,24 +179,30 @@ UserWhereText=
 [Table23]
 SchemaName=
 TableName=Shelf
-Enabled=True
+Enabled=False
 UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=idShelf0=65|Name0=92
+BrowserOrder_Visible=idShelf0=59|Name0=77
 [Table24]
 SchemaName=
 TableName=Shunt
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Description0=82|Library Ref0=77|Library Path0=125|Footprint Ref0=92|Footprint Path0=139|idShunt0=64|Manufacturer_id0=108|Drawer_id0=75|Name0=52|Value0=52|Package0=65|MfrPartNo0=76|Link0=44|Comment0=72|ComponentLink1Description0=170|ComponentLink1URL0=131|Supplier10=72|Supplier1PartNo0=107|Created_By0=79|Created_Date0=92|Updated_By0=84|Updated_Date0=97
 [Table25]
 SchemaName=
 TableName=Transformer
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Description0=248|Library Ref0=77|Library Path0=155|Footprint Ref0=92|Footprint Path0=167|idTransformer0=95|Manufacturer_id0=108|Drawer_id0=75|Name0=137|Value0=95|Current_Rating0=101|Tolerance0=73|Voltage_Primary0=105|Voltage_Secondary0=121|Package0=80|MfrPartNo0=76|Link0=1130|Comment0=96|ComponentLink1Description0=170|ComponentLink1URL0=320|Supplier10=72|Supplier1PartNo0=107|Created_By0=79|Created_Date0=92|Updated_By0=84|Updated_Date0=97
 [FieldMap1]
 Options=FieldName=ADC.Description|TableNameOnly=ADC|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
